@@ -6,7 +6,7 @@ import { App , Main } from 'rs-react-containers';
 const routes = (
   <Router history={browserHistory}>
     <Route path='/' component={App}>
-      <Route path='/main' component={Main} />
+      <Route path='main' component={Main} />
     </Route>
   </Router>
 );
